@@ -64,6 +64,7 @@ main {
     transition: all 1s;
     transform: scale(1.1, 1.1); }
   .contenedor__card .card {
+    margin: 2rem;
     border-radius: 0.5rem; }
     .contenedor__card .card h2 {
       font-size: 1rem; }
@@ -79,7 +80,9 @@ main {
     color: #d17070;
     font-size: 2rem;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: left; } }
+    text-align: left; }
+  .card {
+    margin: 2rem; } }
 
 .contenedor__adondeapuntamos {
   background-color: #fcd6a6; }
