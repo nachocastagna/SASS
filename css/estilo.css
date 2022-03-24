@@ -1,0 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: white; }
+
+main {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(252, 201, 135, 0.993); }
+
+.conteiner-fluid h1 {
+  margin: 2rem;
+  padding: 15px;
+  color: #d17070;
+  font-size: 3.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left; }
+
+.conteiner-fluid p {
+  margin: 2rem;
+  padding: 15px;
+  color: white;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif; }
+
+@media only screen and (max-width: 560px) {
+  .conteiner-fluid h1 {
+    margin: 2rem;
+    padding: 5px;
+    color: #d17070;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left; }
+  .conteiner-fluid p {
+    margin: 2rem;
+    padding: 0px;
+    color: white;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif; } }
+
+.contenedor__quehacemos {
+  width: 100%;
+  height: 15rem;
+  background-color: #f7e8e8; }
+
+.__titulo h1 {
+  margin: 2rem;
+  padding: 15px;
+  color: #d17070;
+  font-size: 3.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left; }
+
+.contenedor__card {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around; }
+  .contenedor__card :hover {
+    transition: all 1s;
+    transform: scale(1.1, 1.1); }
+  .contenedor__card .card {
+    border-radius: 0.5rem; }
+    .contenedor__card .card h2 {
+      font-size: 1rem; }
+    .contenedor__card .card p {
+      font-size: 0.7rem; }
+  .contenedor__card .card img {
+    width: 100%; }
+
+@media only screen and (max-width: 560px) {
+  .__titulo h1 {
+    margin: 2rem;
+    padding: 5px;
+    color: #d17070;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left; } }
+
+.contenedor__adondeapuntamos {
+  background-color: #fcd6a6; }
+
+.contenedor__accordion {
+  margin-top: 3rem; }
+
+.conteiner {
+  padding: 1rem; }
+  .conteiner .row img {
+    width: 100%; }
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 50px;
+  background-color: grey; }
+  .footer .iconos {
+    display: inline; }
+  .footer h3 {
+    font-size: small; }
+  .footer .bi {
+    opacity: 0.9;
+    color: white; }
+  .footer .bi:hover {
+    opacity: 1;
+    color: #c0e5e5; }
+
+@media only screen and (max-width: 560px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 30px; } }
