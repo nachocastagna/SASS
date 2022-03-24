@@ -79,25 +79,28 @@ main{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    :hover{
-        transition: all 1s;
-        transform: scale(1.1,1.1);
-    }
+    
+}
     
     .card{
         margin:2rem;
-        
+        border-radius: 0.5rem;
+        &:hover{
+            transition: all 1s;
+            transform: scale(1.1,1.1);
+        }
+
         h2{
             font-size: $titulo-card;
-        }
-        border-radius: 0.5rem;
+        }        
         p{
             font-size: $parrafo-card;
         }
-    }
     
-    .card img{
+        img{
         width: 100% ;
+
+
         
     }
 }

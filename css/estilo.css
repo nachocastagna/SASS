@@ -60,17 +60,18 @@ main {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around; }
-  .contenedor__card :hover {
+
+.card {
+  margin: 2rem;
+  border-radius: 0.5rem; }
+  .card:hover {
     transition: all 1s;
     transform: scale(1.1, 1.1); }
-  .contenedor__card .card {
-    margin: 2rem;
-    border-radius: 0.5rem; }
-    .contenedor__card .card h2 {
-      font-size: 1rem; }
-    .contenedor__card .card p {
-      font-size: 0.7rem; }
-  .contenedor__card .card img {
+  .card h2 {
+    font-size: 1rem; }
+  .card p {
+    font-size: 0.7rem; }
+  .card img {
     width: 100%; }
 
 @media only screen and (max-width: 560px) {
