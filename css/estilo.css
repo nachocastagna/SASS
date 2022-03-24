@@ -60,12 +60,12 @@ main {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around; }
-  .contenedor__card :hover {
-    transition: all 1s;
-    transform: scale(1.1, 1.1); }
   .contenedor__card .card {
     margin: 2rem;
     border-radius: 0.5rem; }
+    .contenedor__card .card:hover {
+      transition: all 1s;
+      transform: scale(1.1, 1.1); }
     .contenedor__card .card h2 {
       font-size: 1rem; }
     .contenedor__card .card p {

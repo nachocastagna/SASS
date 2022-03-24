@@ -79,13 +79,14 @@ main{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    :hover{
-        transition: all 1s;
-        transform: scale(1.1,1.1);
-    }
+    
     
     .card{
         margin:2rem;
+        &:hover{
+            transition: all 1s;
+            transform: scale(1.1,1.1);
+        }
         
         h2{
             font-size: $titulo-card;
