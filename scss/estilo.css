@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+.navbar-brand {
+  font-size: 3rem;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(252, 201, 135, 0.993);
+}
+
+.conteiner-fluid h1 {
+  margin: 2rem;
+  padding: 15px;
+  color: #d17070;
+  font-size: 3.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+
+.conteiner-fluid p {
+  margin: 2rem;
+  padding: 15px;
+  color: white;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 560px) {
+  .conteiner-fluid h1 {
+    margin: 2rem;
+    padding: 5px;
+    color: #d17070;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+  }
+  .conteiner-fluid p {
+    margin: 2rem;
+    padding: 0px;
+    color: white;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+
+.contenedor__quehacemos {
+  width: 100%;
+  height: 15rem;
+  background-color: #f7e8e8;
+}
+
+.__titulo h1 {
+  margin: 2rem;
+  padding: 15px;
+  color: #d17070;
+  font-size: 3.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+
+.contenedor__card {
+  margin-bottom: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.card {
+  margin: 2rem;
+  border-radius: 0.5rem;
+}
+
+.card:hover {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+}
+
+.card h2 {
+  font-size: 1rem;
+}
+
+.card p {
+  font-size: 0.7rem;
+}
+
+.card img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 560px) {
+  .__titulo h1 {
+    margin: 2rem;
+    padding: 5px;
+    color: #d17070;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+  }
+  .card {
+    margin: 2rem;
+  }
+}
+
+.contenedor__adondeapuntamos {
+  background-color: #fcd6a6;
+}
+
+.contenedor__accordion {
+  margin-top: 3rem;
+}
+
+.conteiner {
+  padding: 1rem;
+}
+
+.conteiner .row img {
+  width: 100%;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  padding: 50px;
+  background-color: grey;
+}
+
+.footer .iconos {
+  display: inline;
+}
+
+.footer h3 {
+  font-size: small;
+}
+
+.footer .bi {
+  opacity: 0.9;
+  color: white;
+}
+
+.footer .bi:hover {
+  opacity: 1;
+  color: #c0e5e5;
+}
+
+@media only screen and (max-width: 560px) {
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: left;
+    padding: 30px;
+  }
+}
+/*# sourceMappingURL=estilo.css.map */
